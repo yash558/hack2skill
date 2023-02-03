@@ -1,0 +1,27 @@
+.topChart{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.topChart_card{
+  margin-top: 1rem;
+}
+
+.line{
+    width: 100%;
+   background-color: aqua;
+}
+.topChart_card .card_row1, .card_row2{
+display: flex;
+flex-direction: row;
+margin-top: 4rem;
+gap: 5rem;
+}
